@@ -4,7 +4,7 @@ var guessLeft=10;
 var playerGuess=[];
 
 var computerChoise=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
-var computerGuess= computerChoise[Math.round(Math.random().computerChoise.length)];
+var computerGuess= computerChoise[Math.round(Math.random()*computerChoise.length)];
 
 
 function checkGuess(){
@@ -41,8 +41,15 @@ losses=0;
 guessLeft=9;
 }
 reset();
-var checkreset = document.getElementById("#reset").innerHTML="wins=0,losses=0,guessLeft=9"
+var checkreset = document.getElementById("#numwins").innerHTML(wins);
+var checkreset = document.getElementById("#numlosses").innerHTML(losses);
+var checkreset = document.getElementById("#numguess").innerHTML(GuessLeft);
+var checkreset = document.getElementById("#playerGuess").innerHTML(YourGuessSoFar);
+
+
 
 
 
 document.addEventListener('keypress', checkGuess);
+var  resBtn= document.getElementById("resetButton");
+resBtn.addEventListener('onclick', reset);
