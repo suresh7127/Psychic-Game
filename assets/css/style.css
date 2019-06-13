@@ -1,0 +1,41 @@
+body {
+  background-color: #efeee7;
+font-family: 'Georgia', Times, Times New Roman, serif;
+color: #333333;
+margin:0;
+padding:0;
+font-size: 18px;
+line-height: 150%;
+background-image:url(psychics-sky.jpg);
+}
+header {
+  text-align: center;
+  padding: 20px;
+  color:#ffffff;
+  background: #4aaaa5;
+  border: 2px solid #cccccc;
+  height: 100px;
+  margin-left:0px;
+}
+h1{
+  color:#fff;
+  font-size: 28px;
+  text-align: center;
+  padding:0;
+  margin-bottom: 0;
+  }
+p{
+  font-size: bold;
+  text-decoration:none;
+  margin: 2px solid red;
+  color: green;
+  vertical-align: middle;
+
+}
+  #footer{
+    border: 2px solid black;
+    color: orchid;
+  background-color:orange;
+    text-align: center;
+    margin-top: 240px;
+  }
